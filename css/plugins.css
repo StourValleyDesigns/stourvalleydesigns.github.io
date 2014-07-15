@@ -1,0 +1,173 @@
+/* @override http://shibbyonline.co.uk/wp-content/themes/nov07/css/plugins.css */
+
+b.niftycorners,b.niftyfill{display:block}
+b.niftycorners *{display:block;height: 1px;line-height:1px;font-size: 1px; overflow:hidden;border-style:solid;border-width: 0 1px}
+/*normal*/
+b.r1{margin: 0 3px;border-width: 0 2px}
+b.r2{margin: 0 2px}
+b.r3{margin: 0 1px}
+b.r4{height: 2px}
+b.rb1{margin: 0 8px;border-width:0 2px}
+b.rb2{margin: 0 6px;border-width:0 2px}
+b.rb3{margin: 0 5px}
+b.rb4{margin: 0 4px}
+b.rb5{margin: 0 3px}
+b.rb6{margin: 0 2px}
+b.rb7{margin: 0 1px;height:2px}
+b.rb8{margin: 0;height:2px}
+b.rs1{margin: 0 1px}
+/*transparent inside*/
+b.t1{border-width: 0 5px}
+b.t2{border-width: 0 3px}
+b.t3{border-width: 0 2px}
+b.t4{height: 2px}
+b.tb1{border-width: 0 10px}
+b.tb2{border-width: 0 8px}
+b.tb3{border-width: 0 6px}
+b.tb4{border-width: 0 5px}
+b.tb5{border-width: 0 4px}
+b.tb6{border-width: 0 3px}
+b.tb7{border-width: 0 2px;height:2px}
+b.tb8{border-width: 0 1px;height:2px}
+b.ts1{border-width: 0 2px}
+
+/* @group Lightbox */
+#lightbox{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+	}
+
+#lightbox a img{ border: none; }
+
+#outerImageContainer{
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	}
+
+#imageContainer{
+	padding: 10px;
+	}
+
+#loading{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	}
+#hoverNav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	}
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{
+	width: 49%;
+	height: 100%;
+	background: transparent url(http://www.shibbyonline.co.uk/wp-content/themes/nov07/images/blank.gif) no-repeat; /* Trick IE into showing hover */
+	display: block;
+	}
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(http://www.shibbyonline.co.uk/wp-content/themes/nov07/images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(http://www.shibbyonline.co.uk/wp-content/themes/nov07/images/nextlabel.gif) right 15% no-repeat; }
+
+
+#imageDataContainer{
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%	
+	}
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em;	}	
+		
+#overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+	}
+/* @end */
+
+#lifestream, #lifestream_list {
+	list-style-type: none;
+}
+
+#lifestream a, #lifestream_list a {
+	font-weight: normal;
+	font-style: normal;
+	padding-left: 25px;
+}
+
+ul .date {
+	display: block;
+	width: 100%;
+	color: #606060;
+	font-size: 1.5em;
+	text-align: left;
+	padding: 0 0 1px 0 !important;
+	margin: 10px 0 0 0 !important;
+}
+
+.item {
+	line-height: 25px;
+}
+
+a.delicious {
+	background: url(../images/stream_link.gif) no-repeat;
+	color: #76a7fd;
+}
+
+a.blog {
+	background: url(../images/stream_blog.gif) no-repeat;
+	color: #bababa;
+}
+
+a.lastfm {
+	background: url(../images/stream_lastfm.gif) no-repeat;
+	color: #fee;
+}
+
+a.flickr {
+	background: url(../images/stream_flickr.gif) no-repeat;
+	color: #6b61ff;
+}
+
+a.twitter {
+	background: url(../images/stream_twitter.gif) no-repeat;
+	color: #b4e0fc;
+}
+
+a.xbox {
+	background: url(../images/stream_360.gif) no-repeat;
+	color: #98fcb0;
+}
+
+a.viddler {
+	background: url(../images/stream_viddler.gif) no-repeat;
+	color: #fc647d;
+}

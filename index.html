@@ -2,19 +2,76 @@
 layout: default
 ---
 
-<div class="home">
+<div class="scroller">
 
-  <h1>Posts</h1>
+<div class="content">
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="section" id="info">
+<h2>Info</h2>
+<p>Hidden in the depths of Contstable country is the last place you would expect a web page to generate from.<br />
+Stour Valley Designs is the exception.</p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<h3>The Goal</h3>
+<p>You might have seen clever promises of <abbr title="Search Engine Optimisation">SEO</abbr>, web2.0 or other buzz words that create images of cutting edge, trendy web sites. Sorry but there is none of that here.<br />
+It is my goal to work with you at your level of experience and knowledge and provide you with a simple website that does exactly what you require.</p>
 
+<h3>How We Get There</h3>
+<p>There are a lot of technologies out there and the terminology behind them can be quite overwhelming, that is why I concentrate on listening to your requirements and not putting technology first.<br />
+You will not find mountains of flashy animations and bloated content, I produce simple, effective and clean pages that are search engine friendly and written to the recognised standards of todays internet.</p>
+<p>Nothing more, nothing less.</p>
+</div><!-- .section#info -->
+
+<div class="section" id="about">
+<h3>The Who</h3>
+<p>My name is Adam Chamberlin, I have had an <a href="http://shibbyonline.co.uk" title="shibbyonline">online presence</a> for the last few years and it was about time I put some of my skills to better use.<br />
+To which I offer myself and my toolset as a freelance coder and creator of web sites. I am no grahic designer, I know my way round Photoshop but I do not claim to be an expert. I can help with brand identity and image representation but if you want the full monty try some of the full time proffesional designers out there; I can recommend a few.</p>
+
+<h3>The Why</h3>
+<p>So I took a bite from the html apple when designing my first web site, and found it tasted good. However I learnt with tables and spacer.gif, some thing new was needed; symantic coding was introduced. So I went about re-teaching myself based upon <abbr title="Extensible HyperText Markup Language">xhtml</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr>, which is what creates web pages to the <a href="http://www.w3.org/" title="World Wide Web Consortium">W3C</a> standards; the approved mark of the internet.</p>
+
+<h3>The When</h3>
+<p>This is not my full time vocation, there is just not enough hours in the day to make it so, neither is there enough clients to start on your own.<br/>
+So why bother?<br />
+Good question, the answer is simple; why not. I would like to take what started as a hobby to the next level.</p>
+</div><!-- .section#about -->
+
+<div class="section" id="contact">
+<h2>Contact</h2>
+<p>If you feel that I can help with your next project then please get in touch.</p>
+<p>From helping you understand how exactly the internet can fit into your business model, to creating a site.<br />
+Or maybe you have a site that just needs a quick update, or just some one to help ease the load of creating a few web pages.</p>
+<p>What ever your requirement drop me a line and I'll see if I can help.</p>
+<p>email: <a href="mailto:info@stourvalleydesigns.com?subject=Web%20Site%20Enquiry" title="email">info@stourvalleydesigns.com</a></p>
+<p>tel: <a href="callto:+44-7816-905420">+44 (0)7816 905 420</a></p>
+<p><img src="images/vcf.gif" alt="Click to download vCard" style="margin:0 5px 0 0" /><a href="http://feeds.technorati.com/contacts/referrer">Download vCard</a></p>
+
+<div class="vcard hide" style="display:none;">
+	<img src="images/svd.jpg" alt="photo of Adam" class="photo" />
+	<a class="url fn" href="http://stourvalleydesigns.com">
+		<span class="given-name">Adam</span>
+		<span class="family-name">Chamberlin</span></a>
+		<span class="nickname">Funky Larma</span>
+
+	<div class="adr">
+		<span class="type">Home</span>
+		<span class="locality">Sudbury</span>
+		<span class="region">Suffolk</span>
+		<span class="country-name">UK</span>
+	</div>
+	
+	<div class="tel">
+  		<span class="type">mobile</span>
+  		<span class="value">07816 905420</span>
+  	</div>
+  	
+  	<div class="email">
+  		<span class="type">home</span>
+  		<span class="value">adam@stourvalleydesigns.com</span>
+  	</div>
 </div>
+
+</div><!-- .section#contact -->
+
+</div><!-- .content -->
+
+</div><!-- .scroller -->

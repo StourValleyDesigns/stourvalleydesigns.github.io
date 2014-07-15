@@ -1,0 +1,98 @@
+/* @override http://www.stourvalleydesigns.com/user/themes/svd/style.css */
+
+/*  
+Theme Name: 
+Theme URI: 
+Description: 
+Version: 
+Author: 
+Author URI: 
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+*/
+
+@import 'reset.css';
+@import 'typography.css';
+
+/* Main Sections
+---------------- */
+
+/* Main Page Details*/
+body {
+	background-repeat: repeat-x;
+	background-image: url(../images/bg.jpg);
+	margin-top: 20px;
+	}
+	
+#wrapper {
+	margin: 0 auto;
+	min-height: 322px;
+	padding-bottom: 180px;
+	width: 740px;
+	border: 1px solid #a5a5a5;
+	background: white url(../images/scene.jpg) no-repeat bottom;
+	text-align: left;
+}
+
+#header {
+	background: url(../images/header.jpg) no-repeat;
+	height: 112px;
+	margin-bottom: 20px;
+}
+
+#header h1, #header h2 {
+	text-indent: -9999px;
+}
+
+#content {
+	width: 640px;
+	margin: 0 auto;
+}
+
+#nav {
+	position: relative;
+	float: right;
+	margin-right: 20px;
+	top: -60px;
+}
+
+#navlist {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#navlist li{
+	display: block;
+}
+
+.scroller {
+	width: 640px; 
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+	}
+
+.scroller .section {
+	width:635px;
+	height:400px;
+	overflow:hidden;
+	float:left;
+	padding:0.2em;		
+	}
+	
+div.scroller div.content {
+	width: 10000px;
+	}
+
+input.invalid {
+	background-color: #FF9;
+	border: 2px red inset;
+}
+
+label {
+	float: left;
+	width: 80px;
+	}
